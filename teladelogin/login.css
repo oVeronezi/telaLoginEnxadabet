@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+html {
+    min-height: 100%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    background: linear-gradient(to bottom,#63e3a0, purple,  black);
+   
+}
+html, body {
+    min-height: 100%;
+    
+  
+}
+
+
+.caixaDeLogin {
+    margin-top: 170px;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px 0 0 10px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur;
+
+}
+
+.loginDireita {
+    margin-top: 170px;
+    width: 400px;
+    height: 500px;
+    border-radius: 0 10px 10px 0;
+    border:1px solid rgba(255, 255, 255, 0.18);
+
+}
+    .logindireita_img {
+        width: 400px;
+        height: 500px;
+
+    }
+
+
+.facaologin {
+    color: #63e3a0;
+}
+
+
+
+.login_mae {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+   margin-top: 30px;
+    font-size: large; 
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.usuario {
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: blueviolet 0 0 20px;
+    background: #201b2c;
+    font-size: 12pt;
+    color: aliceblue;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.senha {
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: blueviolet 0 0 20px;
+    background: #201b2c;
+    font-size: 12pt;
+    color: aliceblue;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.textfield {
+    margin-left: 45px;
+
+}
+p {
+    margin-top: 50px;
+    font-size: 15pt;
+    color: #87CEFA;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.botao_login {
+    margin-top: 20px;
+    width: 130px;
+    padding: 10px 0px;
+    color: aliceblue;
+    border-radius: 10px;
+    background: #201b2c;
+    border: none;
+    cursor: pointer;
+    box-shadow: blueviolet 0 0 20px;
+
+}
+
+.botao_registro {
+    margin-top: 20px;
+    width: 130px;
+    padding: 10px 0px;
+    color: aliceblue;
+    border-radius: 10px;
+    background: #201b2c;
+    border: none;
+    cursor: pointer;
+    box-shadow: blueviolet 0 0  20px;
+
+}
